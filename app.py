@@ -15,3 +15,4 @@ if st.sidebar.button("Calcular"):
     
     st.metric(label="Propina sugerida", value=f"${propina:.2f}")
     st.write(f"Total a pagar: ${total_cuenta + propina:.2f}")
+
